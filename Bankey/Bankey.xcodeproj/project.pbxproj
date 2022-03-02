@@ -16,6 +16,8 @@
 		AAEF1B0527CB5AB900F3000B /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF1B0427CB5AB800F3000B /* OnboardingViewController.swift */; };
 		AAEF1B0727CD130100F3000B /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF1B0627CD130000F3000B /* DummyViewController.swift */; };
 		AAEF1B0A27CD437800F3000B /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF1B0927CD437800F3000B /* LocalState.swift */; };
+		AAEF1B0C27CE2C4E00F3000B /* UIViewController+Utils .swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF1B0B27CE2C4E00F3000B /* UIViewController+Utils .swift */; };
+		AAEF1B0F27CF51E600F3000B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF1B0E27CF51E600F3000B /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,9 @@
 		AAEF1B0427CB5AB800F3000B /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		AAEF1B0627CD130000F3000B /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 		AAEF1B0927CD437800F3000B /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
+		AAEF1B0B27CE2C4E00F3000B /* UIViewController+Utils .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils .swift"; sourceTree = "<group>"; };
+		AAEF1B0D27CF4F2C00F3000B /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AAEF1B0E27CF51E600F3000B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +67,13 @@
 		AAEF1AE527C6A8A600F3000B /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
-				AAEF1B0827CD435C00F3000B /* Utils */,
-				AAEF1AFB27C6B0BF00F3000B /* Files */,
 				AAEF1AE627C6A8A600F3000B /* AppDelegate.swift */,
+				AAEF1B0E27CF51E600F3000B /* MainViewController.swift */,
 				AAEF1AFA27C6B0A300F3000B /* Login */,
 				AAEF1AFE27CA682E00F3000B /* Onboarding */,
+				AAEF1B0827CD435C00F3000B /* Utils */,
+				AAEF1AFB27C6B0BF00F3000B /* Files */,
+				AAEF1B0D27CF4F2C00F3000B /* MyPlayground.playground */,
 			);
 			path = Bankey;
 			sourceTree = "<group>";
@@ -104,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				AAEF1B0927CD437800F3000B /* LocalState.swift */,
+				AAEF1B0B27CE2C4E00F3000B /* UIViewController+Utils .swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -179,10 +187,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAEF1AFD27C6B18100F3000B /* LoginView.swift in Sources */,
+				AAEF1B0C27CE2C4E00F3000B /* UIViewController+Utils .swift in Sources */,
 				AAEF1B0A27CD437800F3000B /* LocalState.swift in Sources */,
 				AAEF1B0727CD130100F3000B /* DummyViewController.swift in Sources */,
 				AAEF1AEB27C6A8A600F3000B /* LoginViewController.swift in Sources */,
 				AAEF1B0527CB5AB900F3000B /* OnboardingViewController.swift in Sources */,
+				AAEF1B0F27CF51E600F3000B /* MainViewController.swift in Sources */,
 				AAEF1AE727C6A8A600F3000B /* AppDelegate.swift in Sources */,
 				AAEF1B0027CAA1D400F3000B /* OnboardingContainerViewController.swift in Sources */,
 			);

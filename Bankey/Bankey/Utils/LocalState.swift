@@ -19,6 +19,7 @@ public class LocalState {
             return UserDefaults.standard.bool(forKey: Keys.hasOnboarded.rawValue)
         }
         set(newValue) {
+            print(hasOnboarded)
             UserDefaults.standard.set(newValue, forKey: Keys.hasOnboarded.rawValue)
             UserDefaults.standard.synchronize()
         }
