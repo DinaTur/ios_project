@@ -76,8 +76,8 @@
 				AAEF1B0E27CF51E600F3000B /* MainViewController.swift */,
 				AAEF1AFA27C6B0A300F3000B /* Login */,
 				AAEF1AFE27CA682E00F3000B /* Onboarding */,
-				AAEF1B0827CD435C00F3000B /* Utils */,
 				AAEF1B1027CFA93F00F3000B /* AccountSummary */,
+				AAEF1B0827CD435C00F3000B /* Utils */,
 				AAEF1AFB27C6B0BF00F3000B /* Files */,
 			);
 			path = Bankey;
